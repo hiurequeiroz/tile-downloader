@@ -1,18 +1,17 @@
 # tile-downloader
 
-Download tiles for a map region  without memory limits. Downloads the tiles as a tar file directly to the
-filesystem.
+Baixar quadrantes para uma região do mapa sem limites de memória. Descarrega os quadrantes como um arquivo tar diretamente para o seu sitema, ou servidor local.
 
-Only works on Google Chrome.
+Funciona somente no Google Chrome.
 
-## Instalation
+## Instalação
 
-### pre-requisites
+### Pr-requisitos
 
 node.js
 google-chormium
 
-### Step-by-step 
+### Passo a Passo 
 
 `git clone https://github.com/digidem/tile-downloader.git`
 
@@ -24,15 +23,15 @@ google-chormium
 
 `npm start`
 
-### Usage
+### Uso
 
-- go to http://127.0.0.1:8080/
+- vá até http://127.0.0.1:8080/
 
-- Find the desired location
+- Encontre a sua região no mapa
 
-- Ajust the min and max zoom for the map you need
+- Ajuste o min zoom e max zoom para os limetes de zoom que você deseja
 
-- Click on start download
+- Click em start download
 
 ## License
 MIT
